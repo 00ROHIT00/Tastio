@@ -16,9 +16,45 @@
   scroll-behavior: smooth;
   -webkit-scroll-behaviour : smooth;
 }
-.bg-custom{
-  background : transparent !important;
+.custom{
+  background-color: var(--background-color);
+  border-bottom: 1px solid black;
 }
+.custom a{
+  font-family: "Poppins", sans-serif;
+  color: var(--text-color);
+  
+}
+
+.underline{
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+
+.underline:hover{
+  text-decoration: underline;
+}
+
+.tastio-navbar{
+  font-weight: 1000;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+
+.tastio-navbar:hover{
+  transform: scale((105%));
+  -webkit-transform: scale((105%));
+  -moz-transform: scale((105%));
+  -ms-transform: scale((105%));
+  -o-transform: scale((105%));
+}
+
 .container-fluid{
   background : var(--background-color);
   color : var(--text-color) ; 
@@ -69,7 +105,6 @@
 }
 
 .btn button{
-  border: lime 2px solid;
   padding: 5px;
   background: rgba(0, 0, 0, 0.3);
   border: none;
@@ -96,11 +131,11 @@
   color: white;
   cursor: pointer;
   background: rgba(0, 0, 0, 0.6);
-  border-radius: 6px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
 }
 
 /*MEDIA QUERIES*/
